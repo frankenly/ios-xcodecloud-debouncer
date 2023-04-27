@@ -32,5 +32,17 @@ final class Xcode_CloudTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testXcodeCloudRunTestMakeData1() {
+        XCTAssertEqual("aa", "aa", "Hard code to test xcode 1")
+    }
+    
+    func testXcodeCloudRunTestMakeData2() {
+        XCTAssertEqual("aa", "aa", "Hard code to test xcode 2")
+    }
+    
+    func testXcodeCloudRunTestMakeData3() {
+        XCTAssertEqual("aa", "aa", "Hard code to test xcode 3")
+    }
 
 }
