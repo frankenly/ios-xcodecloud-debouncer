@@ -38,7 +38,7 @@ final class Xcode_CloudTests: XCTestCase {
     }
     
     func testXcodeCloudRunTestMakeData2() {
-        XCTAssertEqual("aa", "aa", "Hard code to test xcode 2")
+        XCTAssertEqual("aa", "ssssa", "Hard code to test xcode 2")
     }
     
     func testXcodeCloudRunTestMakeData3() {
